@@ -1,0 +1,5 @@
+package com.customers.admuser.repository;
+
+public interface JavaOneRepository {
+
+}
