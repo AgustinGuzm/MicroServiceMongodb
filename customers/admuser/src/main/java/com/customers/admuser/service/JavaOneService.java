@@ -32,6 +32,7 @@ public class JavaOneService {
 	}
 	//Getting all Documents from JavaOne collection
 	public List<JavaOneDocuments> GetDocuments(){
+		int x=0;
 		return repository.findAll();
 	}
 	

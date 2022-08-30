@@ -26,5 +26,10 @@ public class JavaOneDocuments {
 	
 	@Past
 	private Date BirthDate;
+	
+	private String emailadd;
+	private String ccname;
+	private String ccnumber;
+	private String phnumber;
 
 }
