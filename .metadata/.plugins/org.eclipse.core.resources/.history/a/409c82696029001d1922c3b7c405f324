@@ -46,7 +46,6 @@ public class JavaOneController {
 	}
 	
 	@CrossOrigin(origins = "http://localhost:4200")
-	@ResponseStatus(HttpStatus.OK)
 	@DeleteMapping("/documents/deletebyid/{userId}")
 	public String DeleteDocumentById(@PathVariable String userId) {
 		return service.DeleteOneDocumentbyId(userId);

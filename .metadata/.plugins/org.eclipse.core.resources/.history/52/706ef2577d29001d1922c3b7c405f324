@@ -19,10 +19,14 @@ public class JavaOneService {
 	
 	//Adding one document in JavaOne Collection
 	public String InsertDocument(JavaOneDocuments jone) {
+	int y=0;
+	y+=1;
+
 	 Date date = new Date(); 
 		
 		jone.setBirthDate(date);
 		repository.save(jone);
+		
 		//repository.insert(jone);
 		return "Document added with Id " + jone.getUserid() ;
 	}
