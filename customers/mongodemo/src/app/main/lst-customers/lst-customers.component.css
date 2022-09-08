@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+.container_lstcust {
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:black;
+  /* height: 500px; */
+  background-position: center;
+  display:flex;
+  justify-content:center;
+  height:100vh;
+  text-align:center;
+  font-family:monospace;
+}
+.lsrcust_container {
+  color:white;
+  margin:auto;
+  justify-content:center;
+  background-color:darkslategray;
+  border:2px solid black;
+  border-radius:20px;
+  opacity:0.9;
+  width:90%;
+  padding:20px;
+  font-family:sans-serif;
+}
